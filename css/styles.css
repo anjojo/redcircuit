@@ -1,0 +1,179 @@
+/* Info-Header Section */
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+#info-header {
+  text-align: right;
+}
+
+.info-text {
+  font-size: 0.9rem;
+}
+
+.company-logo {
+  width: 50px;
+}
+
+.message-button {
+  margin-left: 10px;
+}
+
+.email-button {
+  margin-left: 650px;
+}
+
+/* Brands Carousel Section */
+#brands {
+  padding: 15px 50px 0px;
+}
+
+#brands-carousel {
+  background-color: #ececec;
+}
+
+.brand-logo {
+  width: 550px;
+}
+
+
+.carousel-indicators li {
+  padding: 0;
+  color: black;
+  filter: invert(100%);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+.carousel-item,
+.active {
+  height: 350px;
+  padding: 50px;
+  text-align: center;
+}
+
+
+/* Listing Cards Section */
+#listings {
+  padding-top: 50px;
+}
+
+.card-col-listing {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.card {
+  width: 19rem;
+  text-align: center;
+  background-color: #ececec;
+  border-radius: 0;
+}
+
+.card-img-top {
+  width: 300px;
+}
+
+#listings .card .btn {
+  border-radius: 0 !important;
+}
+
+hr {
+  width: 78.5%;
+  border: 2px solid black;
+  margin: 5px auto !important;
+  margin-bottom: 0px !important;
+}
+
+.price-tag {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+/* Footer Section */
+
+#footer {
+  text-align: left;
+}
+
+/* Media Section */
+@media (max-width: 768px) {
+
+  /* Info-Header Section */
+  #info-header {
+    text-align: center;
+  }
+
+  .info-text {
+    font-size: 1rem;
+    margin-right: 0px;
+  }
+
+  /* Brands Carousel Section */
+  #brands {
+    padding: 0px;
+  }
+
+  .brand-logo {
+    width: 250px;
+  }
+
+  .carousel-item,
+  .active {
+    height: 250px;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .message-button {
+    margin-left: 20px;
+  }
+
+  .email-button {
+    margin-left: 0px;
+  }
+
+  /* Listing Cards Section */
+  #listings {
+    padding: 50px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card-col-listing {
+    margin-top: 15px;
+  }
+
+  #listings .card .btn {
+    width: 100%;
+  }
+
+  .price-tag {
+    font-size: 2.1rem;
+  }
+
+  /* Footer Section */
+  #footer {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  #footer h3 {
+    font-size: 1.3rem;
+  }
+
+}
